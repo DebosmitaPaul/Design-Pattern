@@ -5,11 +5,12 @@ public class Subscriber  implements Observer{
     public Subscriber(String name){
         this.name = name;
     }
-    @Override
-    public void Update()
+     @Override
+    public void update(String title)
     {
-        System.out.println("Hey "+name+" Vedio Uploaded..");
+        System.out.println("Hey "+name+" "+title+" Uploaded..");
     }
+    
     @Override
     public void subscribeChannel(ChannelOnYouTube channel)
     {
