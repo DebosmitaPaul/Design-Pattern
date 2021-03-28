@@ -11,7 +11,9 @@ public class YouTube {
         channel.register(s2);
         channel.register(s3);
         channel.register(s4);
-
+        
+        channel.uploadVedio("Dance..");
+        
         channel.unRegister(s3);
 
         channel.uploadVedio("Song..");
