@@ -16,7 +16,7 @@ public class ChannelOnYouTube implements Subject {
     @Override
     public void notifyChannel(){
         for (Subscriber sub : subscribers){
-            sub.Update();
+            sub.update(this.title);
         }
     }
     @Override
